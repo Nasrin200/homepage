@@ -3,12 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nasrin Alizadeh</title>
+    <meta name="description" content="you will find how to live more healthy and will be able to change your lifestyle " />
+    <title>a great page for your lifestyle</title>
     <style>
+   @media (max-width:570px) {
+  h2 {
+    text-align: center;
+    font-size: medium;
+  }
+ p {
+   text-align: center;
+ } 
+ img {
+   display:none;
+ }
+ #yoga {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+ #weather{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+#yogurt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+}     
     #about {
       text-decoration: none
           }
+        
     </style>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -26,7 +56,7 @@
     ></script>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html" id="myName">Nasrin Alizadeh</a>
+        <a class="navbar-brand" href="index.html" id="myName" title="go to my site" >My name is Nasrin Alizadeh</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,14 +76,14 @@
             <li class="nav-item active">
               <a
                 class="nav-link"
-                href="about.html#contact"
+                href="about.html#contact" title="find my email there"
                 >Contact Me</a
               >
             </li>
             <li class="nav-item active">
                 <a
                   class="nav-link"
-                  href="about.html" id="about" >About Me</a
+                  href="about.html" id="about" title="some information about my site" >Some Information About Me</a
                 >
               </li>
             
@@ -69,23 +99,23 @@
       <a href="about.html" class="secondary-link">About me</a>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row" id="yoga" >
           <div class="col-6">
-              <img src="images/yoga.png" width="400px" class="img-fluid" />
+              <img src="images/yoga.png" width="400px" class="img-fluid" alt="healthy yoga" />
             </div>
         <div class="col-6 ">
           <h2 class="mb-3">Yoga app</h2>
-          <div class="mb-3"> ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          <p class="mb-3"> ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
           eos eveniet alias temporibus deserunt veritatis minima fugiat
           explicabo eum dolore.
-          </div>
+          </p>
           <div class="navigation-links">
               <a href="#" class="primary-link">Launch yoga app</a>
                        </div>
                 
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" id="weather">
             
           <div class="col-6 ">
             <h2 class="mb-3">Weather app</h2>
@@ -99,20 +129,20 @@
         </div>
       </div>
     <div class="col-6">
-              <img src="images/weather.png" width="400px" class="img-fluid" />
+              <img src="images/weather.png" width="400px" class="img-fluid" alt="How is the weather today" />
    </div>
          
-   <div class="row mt-5">
+   <div class="row mt-5" id="yogurt">
       <div class="col-6">
-          <img src="images/yogurt.png" width="400px" class="img-fluid" />
+          <img src="images/yogurt.png" width="400px" class="img-fluid" alt="healthy yogurt" />
         </div>
     <div class="col-6 ">
       <h2 class="mb-3">Yogurt app</h2>
-      <div class="mb-3"> ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+      <p class="mb-3"> ipsum dolor sit amet consectetur adipisicing elit. Perferendis
       quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
       eos eveniet alias temporibus deserunt veritatis minima fugiat
       explicabo eum dolore.
-      </div>
+      </p>
       <div class="navigation-links">
           <a href="#" class="primary-link">Launch yogurt app</a>
                    </div>
